@@ -24,11 +24,6 @@ function dragStart(e) {
 function dragEnd(e) {
   e.preventDefault();
 
-  if (!windowElement.value) {
-    // This drag resulted in the window being closed, so nothing to do
-    return;
-  }
-
   // Calculate the delta
   const deltaX = dragStartX - e.clientX;
   const deltaY = dragStartY - e.clientY;
