@@ -2,6 +2,8 @@
 
 This is an example of a basic drag and drop window component implemented in Vue.
 
+![](working.webp)
+
 __Usage:__
 
 ```html
