@@ -1,29 +1,28 @@
-# window-demo
+# vue-window-componet
 
-This template should help get you started developing with Vue 3 in Vite.
+This is an example of a basic drag and drop window component implement in Vue.
 
-## Recommended IDE Setup
+__Usage:__
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-bun install
+```html
+<Window id="test-window" :top="100" :left="100" :width="400" :height="400" @close="closeWindow()">
+  <template #header>
+    Test Window
+  </template>
+  <template #content>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+    laborum.
+  </template>
+</Window>
 ```
 
-### Compile and Hot-Reload for Development
+__Running demo:__
 
-```sh
-bun dev
+```
+bun run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-bun build
-```
+Open `localhost:5137` in your browser to view the application.
