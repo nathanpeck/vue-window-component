@@ -1,6 +1,6 @@
 # vue-window-component
 
-This is an example of a basic drag and drop window component implement in Vue.
+This is an example of a basic drag and drop window component implemented in Vue.
 
 __Usage:__
 
