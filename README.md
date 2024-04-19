@@ -19,6 +19,17 @@ __Usage:__
 </Window>
 ```
 
+__Links:__
+
+- [App.vue](./src/App.vue) for usage
+- [Window.vue](./src/components/Window.vue) for the draggable component itself
+
+__Features:__
+
+- Basic styling.
+- Normalization of drops. The window will not allow itself to be dropped partially off the screen.
+- Close button that emits an `@close` event.
+
 __Running demo:__
 
 ```
